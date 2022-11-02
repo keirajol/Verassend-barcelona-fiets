@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "Beroepjproject Verassend Barcelona", "Beroepjproject Verassend Barcelona.phpproj", "{6C270846-2209-4CBB-B07C-4BA302694CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C270846-2209-4CBB-B07C-4BA302694CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C270846-2209-4CBB-B07C-4BA302694CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C270846-2209-4CBB-B07C-4BA302694CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C270846-2209-4CBB-B07C-4BA302694CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF188C6E-CAF4-4CA7-AC0C-5BA850E110B9}
+	EndGlobalSection
+EndGlobal

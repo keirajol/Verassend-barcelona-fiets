@@ -1,0 +1,45 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.startcontainer
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containerA, .containerB {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #FCD739;
+    margin-top: 150px;
+    width: 500px;
+    height: 650px;
+    border-radius: 12px;
+}
+
+.containerA:hover, .containerB:hover
+{
+    border: solid 25px;
+    color: #662C25;
+}
+
+.containerA img, .containerB img
+{
+    width: 75%;
+    height: 100%;
+    padding: 70px 70px 70px 70px;
+}
+
+.containertitle
+{
+    color: #662C25;
+}
+
+#left
+{
+    margin-left: 100px;
+}

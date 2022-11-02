@@ -1,0 +1,68 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Marvel;
+    display: flex;
+    flex-direction: column;
+}
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-top: 175px;
+    margin-bottom: 200px;
+    padding: 25px;
+    background: #FCD739;
+    border-radius: 10px;
+}
+
+    .mytabs input[type="radio"] {
+        display: none;
+    }
+
+    .mytabs label {
+        padding: 25px;
+        font-weight: bold;
+        color: #662C25;
+        background: #FCD739;
+    }
+
+    .mytabs .tab {
+        width: 100%;
+        padding: 20px;
+        background: #FCD739;
+        order: 1;
+        display: none;
+        font-family: Marvel;
+        color: #662C25;
+    }
+
+        .mytabs .tab h2 {
+            font-size: 3em;
+        }
+
+    .mytabs input[type='radio']:checked + label + .tab {
+        display: block;
+    }
+
+    .mytabs input[type="radio"]:checked + label {
+        background: #fff;
+    }
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.centerform {
+    display: flex;
+    justify-content: center;
+}
+
+label[for="tabfree"], label[for="tabsilver"], label[for="tabgold"] {
+    border-radius: 10px;
+}
